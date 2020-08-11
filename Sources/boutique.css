@@ -1,0 +1,69 @@
+.boutique-gauche
+{
+	background-color: transparent;
+	min-height: 500px;
+	max-width: 20%;
+	position: absolute;
+	margin-right: 10%;
+	padding-top: 10px;
+	text-align: center;	
+}
+
+.boutique-gauche ul
+{
+	list-style: none;
+	padding: 0;
+	display: table-cell;
+	width: 100%;
+	background: linear-gradient(#b27811,#8e5e08);
+	/* Angles arrondis */
+	border-radius: 3px;
+	/* Ombres pour donner de la profondeur */
+	box-shadow: 0 1px 3px rgba(0, 0, 0, .3),
+				0 3px 5px rgba(0, 0, 0, .2),
+				0 5px 10px rgba(0, 0, 0, .2),
+				0 20px 20px rgba(0, 0, 0, .15);
+
+}
+
+.boutique-gauche ul li a
+{	
+	padding: 10px;
+	text-align: center;
+	color: rgba(0, 0, 0, .7);
+	text-decoration: none;
+	padding: 8px 8px 17px 8px;
+	text-shadow: 0 1px 0 rgba(200, 200, 200, .4);
+	display: block;
+
+}
+
+.boutique-gauche ul li a:hover
+{
+	background: #d69e3a;
+}
+
+
+.boutique-droite
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.boutique-produit
+{
+	max-width: 200px;
+	max-height: 200px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding: 5%;
+	margin-left: 100px;
+	border-bottom: 1px solid #f3ce8d;
+}
+.boutique-produit:hover
+{
+	background: transparent;
+}
+
